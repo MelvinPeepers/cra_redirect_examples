@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/sdfd"
-  to = "testcustomidentity.netlify.app"
+  from = "/*"
+  to = "https://nextjs-netlify-trailingslash.netlify.app/:splat"
   status = 200
-  force = true
+
