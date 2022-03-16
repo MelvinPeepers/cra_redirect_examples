@@ -5,8 +5,6 @@
 #proxy = true
 #pattern = "^/proxy(?:|/|(.*)/?)$"
 
-
-
 [[redirects]]
 from = "/*"
 to = "https://epic-goldstine-54d029.netlify.app"
