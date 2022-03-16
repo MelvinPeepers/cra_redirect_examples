@@ -5,7 +5,15 @@
 #proxy = true
 #pattern = "^/proxy(?:|/|(.*)/?)$"
 
+#[[redirects]]
+#from = "/blog"
+#to = "epic-goldstine-54d029.netlify.app"
+#status = 200
+
+
 [[redirects]]
-from = "/blog"
+from = "/search"
 to = "epic-goldstine-54d029.netlify.app"
 status = 200
+proxy = true
+pattern = "^/proxy(?:|/|(.*)/?)$"
