@@ -1,19 +1,5 @@
 [[redirects]]
-from = "/search"
-to = "https://google.com/search?q=stuff"
-status = 200
-proxy = true
-pattern = "^/proxy(?:|/|(.*)/?)$"
-
-#[[redirects]]
-#from = "/blog"
-#to = "epic-goldstine-54d029.netlify.app"
-#status = 200
-
-
-#[[redirects]]
-#from = "/search"
-#to = "epic-goldstine-54d029.netlify.app"
-#status = 200
-#proxy = true
-#pattern = "^/proxy(?:|/|(.*)/?)$"
+  from = "/sdfd"
+  to = "https://brave-brattain-2a4c10.netlify.app"
+  status = 200
+  force = true
