@@ -1,5 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "https://nextjs-netlify-trailingslash.netlify.app/:splat"
-  status = 200
+    from = “/*”
+    to = "/maintenance"
+    force = true
+    status = 302
 
