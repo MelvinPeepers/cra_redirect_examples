@@ -1,6 +1,4 @@
 [[redirects]]
-    from = “/*”
-    to = "/maintenance"
-    force = true
-    status = 302
+  from = "/*"
+  to = "/blog/:splat"
 
