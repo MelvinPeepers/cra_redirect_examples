@@ -3,7 +3,11 @@
   to = "/index.html"
   status = 200
   
-
+[[redirects]]
+  from = "/netlify/anything"
+  to = "https://www.google.com/search?q=anything"
+  status = 301
+  force = false
 
 
 
