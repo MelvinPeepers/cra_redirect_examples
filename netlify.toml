@@ -1,19 +1,26 @@
 [[redirects]]
-  from = "/*"
-  to = "/blog/:splat"
+#  from = "/*"
+ # to = "/blog/:splat"
   
- [[redirects]]
-  from = "/*"
-  to = "/blog/:splat"
+ #[[redirects]]
+ # from = "/*"
+ # to = "/blog/:splat"
 
   # The default HTTP status code is 301, but you can 
   # define a different one.
-  status = 302
+  # status = 302
 
   # By default, redirects won’t be applied if there’s a file 
   # with the same path as the one defined in the `from` property.
   # Setting `force` to `true` will make the redirect rule
   # take precedence over any existing files.
-  force = true
+  # force = true
+  
+  from = "/"
+  to = "https://jarmos.vercel.app"
+  status = 301
+  force = false
+
+
 
 
