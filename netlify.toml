@@ -1,6 +1,6 @@
 [[redirects]]
-#  from = "/*"
- # to = "/blog/:splat"
+  from = "/*"
+  to = "/blog/:splat"
   
  #[[redirects]]
  # from = "/*"
@@ -16,10 +16,7 @@
   # take precedence over any existing files.
   # force = true
   
-  from = "/404"
-  to = "https://jarmos.vercel.app"
-  status = 301
-  force = false
+
 
 
 
