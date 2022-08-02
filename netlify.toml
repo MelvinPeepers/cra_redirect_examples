@@ -16,7 +16,7 @@
   # take precedence over any existing files.
   # force = true
   
-  from = "/*"
+  from = "/404"
   to = "https://jarmos.vercel.app"
   status = 301
   force = false
