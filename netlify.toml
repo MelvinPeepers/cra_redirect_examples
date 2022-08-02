@@ -1,9 +1,7 @@
 [[redirects]]
-  from = "/search"
-  to = "https://jarmos.vercel.app"
+  from = "/*"
+  to = "/index.html"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
   
 
 
