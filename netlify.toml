@@ -1,9 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  
-[[redirects]]
   from = "http://night.nightsidecode.co/*"
   to = "https://www.mel-24.com/:splat"
   status = 301
@@ -15,6 +10,12 @@
   to = "https://www.mel-24.com/:splat"
   status = 301
   force = true
+  
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 
 
