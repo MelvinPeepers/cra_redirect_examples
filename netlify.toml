@@ -12,6 +12,33 @@
   force = true
   
   
+ [[redirects]]
+  from = "http://lower.mel-24.com/*"
+  to = "https://www.mel-24.com/:splat"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://lower.mel-24.como/*"
+  to = "https://www.mel-24.com/:splat"
+  status = 301
+  force = true
+  
+ [[redirects]]
+  from = "http://sub.mel-24.com/*"
+  to = "https://www.mel-24.com/:splat"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://sub.mel-24.com/*"
+  to = "https://www.mel-24.com/:splat"
+  status = 301
+  force = true
+  
+  
 [[redirects]]
   from = "/*"
   to = "/index.html"
