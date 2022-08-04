@@ -4,11 +4,17 @@
   status = 200
   
 [[redirects]]
-  from = "/netlify/anything"
-  to = "https://www.google.com/search?q=anything"
+  from = "http://night.nightsidecode.co/*"
+  to = "https://www.mel-24.com/:splat"
   status = 301
-  force = false
+  force = true
 
+
+[[redirects]]
+  from = "https://night.nightsidecode.co/*"
+  to = "https://www.mel-24.com/:splat"
+  status = 301
+  force = true
 
 
 
