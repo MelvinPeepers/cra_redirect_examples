@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header"> 
         <h1>
-          Redirects
+          Simple Redirects
         </h1>
         <Routes>
           <Route path="/" element={<Home /> } />
