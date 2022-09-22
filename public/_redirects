@@ -1,9 +1,2 @@
-# https://cra-redirect-ex.netlify.app/ https://intercom.help/augment-eco/ 200!
-# https://cra-redirect-ex.netlify.app/test/* https://intercom.help/augment-eco/:splat 200!
-
-# https://cra-redirect-ex.netlify.app/* https://intercom.help/augment-eco/:splat 200!
-
-# https://cra-redirect-ex.netlify.app/*  https://nextjs-netlify-trailingslash.netlify.app/:splat  200
-
-# /* /index.html 200
+ /* /index.html 200
 
