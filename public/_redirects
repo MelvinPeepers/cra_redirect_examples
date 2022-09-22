@@ -5,5 +5,5 @@
 
 # https://cra-redirect-ex.netlify.app/*  https://nextjs-netlify-trailingslash.netlify.app/:splat  200
 
-/* /index.html 200
+# /* /index.html 200
 
