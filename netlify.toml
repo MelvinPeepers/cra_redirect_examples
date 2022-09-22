@@ -1,2 +1,11 @@
+[[redirects]]
+  from = "/netlify/anything"
+  to = "https://www.google.com/search?q=anything"
+  status = 301
+  force = false
 
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
